@@ -72,8 +72,9 @@ This repository contains the exploratory data analysis (EDA) and statistical eva
 - `matplotlib`
 - `scipy`
 
-Install dependencies in the virtual environment:
+Install dependencies in a virtual environment:
+
 ```bash
 python -m venv venv
-source ./venv/bin/activate
-pip install pandas numpy seaborn matplotlib scipy
+source ./venv/bin/activate  # For Windows, use: .\venv\Scripts\activate
+pip install -r config/requirements.txt
