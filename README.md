@@ -14,6 +14,9 @@ This repository contains the exploratory data analysis (EDA) and statistical eva
 - **Source**: [Washington DC Stop Data](https://catalog.data.gov/dataset/stop-data-b6fdf)
 - **Description**: Contains stop data from the Metropolitan Police Department (MPD) in Washington, D.C., covering vehicle, pedestrian, bicycle, and harbor stops from January 1, 2023, to June 30, 2024. Includes details like stop location, reason, duration, and outcomes (e.g., tickets, searches, arrests).
 
+## Notebook
+- View the detailed EDA: [V-Track EDA_Final.ipynb](https://github.com/shantanudxt/CSCN8040-VTrack/blob/main/notebooks/V-Track%20EDA_Final.ipynb)
+
 ## EDA Summary
 - **Population**: Traffic stops recorded in Washington, D.C., anonymized case-by-case.
 - **Independent Variables**: `STOP_TYPE`, `STOP_DISTRICT`, `DATETIME`, `STOP_LOCATION_BLOCK`
@@ -71,4 +74,6 @@ This repository contains the exploratory data analysis (EDA) and statistical eva
 
 Install dependencies in the virtual environment:
 ```bash
+python -m venv venv
+source ./venv/bin/activate
 pip install pandas numpy seaborn matplotlib scipy
