@@ -24,7 +24,7 @@ This project implements a Retrieval-Augmented Generation (RAG) system using Lang
 
 ```bash
 pip install -r requirements.txt
-
+````
 4. Upload the dataset: RIPA_2023_Merged_Cities.csv
 
 5. Run the notebook and initialize the class Rag:
