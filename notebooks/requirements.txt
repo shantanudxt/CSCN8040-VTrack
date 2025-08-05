@@ -1,5 +1,5 @@
-transformers==4.40.1
-tokenizers==0.13.3
+transformers
+tokenizers
 torch
 streamlit
 langchain
