@@ -9,3 +9,5 @@ faiss-cpu
 sentence-transformers
 huggingface-hub
 accelerate
+pandas
+
